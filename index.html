@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações e Testes - GitHub</title>
+</head>
+
+<body>
+
+    <h1>Teste de Commit e afins</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim tempore magnam officia consectetur! Quod
+        corrupti necessitatibus quasi exercitationem itaque adipisci nulla inventore eaque, doloribus illo, perferendis
+        dolorem? Commodi, ab.
+    </p>
+
+    <p>📌 O que é versionamento de código?
+
+        Versionamento de código é o processo de registrar, organizar e controlar as mudanças feitas no código de um
+        projeto ao longo do tempo.
+
+        Imagine que você está criando um site. Hoje ele está funcionando. Amanhã você altera algo e quebra tudo. 😅
+        Com versionamento, você pode voltar para uma versão anterior que estava funcionando perfeitamente.
+    </p>
+
+    <ul>🧠 Em termos simples:
+        <li>✔️ Ver o que foi alterado</li>
+        <li>✔️ Saber quem alterou</li>
+        <li>✔️ Saber quando foi alterado</li>
+        <li>✔️ Voltar para versões anteriores</li>
+        <li>✔️ Trabalhar em equipe sem sobrescrever código dos outros</li>
+    </ul>
+
+    <h2>🗂️ Como isso funciona na prática?</h2>
+
+    <p>O versionamento é feito usando um Sistema de Controle de Versão (VCS). <br>
+        O mais usado no mundo hoje é: 🔥GIT <br>
+        O Git perite que você tenha um histórico completo de todas as mudanças feitas no seu projeto, além de facilitar
+        a colaboração entre vários desenvolvedores. <br>
+        Ele é como um "diário" do seu código, onde cada mudança é registrada com detalhes como quem fez a mudança,
+        quando foi feita e o que exatamente foi alterado. <br>
+        Com o Git, você pode criar "branches" (ramificações) para trabalhar em novas funcionalidades sem afetar o código
+        principal, e depois "mergear" (mesclar) essas mudanças de volta ao código principal quando estiverem prontas.
+        <br>
+    </p>
+
+    <ul><strong>O Git permite que você:</strong>
+        <li>Crie "pontos de salvamento" chamados commits</li>
+        <li>Trabalhe em ramificações chamadas branches</li>
+        <li>Una versões diferentes com merge</li>
+        <li>Envie seu código para a nuvem (como no GitHub)</li>
+    </ul>
+
+    <h3>🌍 Plataformas populares que usam Git</h3>
+
+    <ul>
+        <li>🚀GitHub</li>
+        <li>🦊GitLab</li>
+        <li>🪣Bitbucket</li>
+    </ul>
+
+    <h2>🏗️ Por que isso é importante?</h2>
+
+    <p>O versionamento de código é essencial para o desenvolvimento de software moderno. Ele permite que os
+        desenvolvedores
+        colaborem de forma eficiente, mantenham um histórico claro das mudanças e possam reverter facilmente para
+        versões
+        anteriores se algo der errado. Sem versionamento, seria difícil gerenciar projetos complexos e garantir a
+        qualidade
+        do código.
+    </p>
+
+    <ul>➡️Sem versionamento:
+        <li>Você perde código facilmente</li>
+        <li>Fica difícil trabalhar em equipe</li>
+        <li>Não há histórico confiável</li>
+    </ul>
+
+    <ul>➡️Com versionamento:
+        <li>Você tem controle total sobre seu código</li>
+        <li>Facilita a colaboração em equipe</li>
+        <li>Mudanças são rastreáveis</li>
+        <li>Permite reverter mudanças problemáticas</li>
+    </ul>
+
+    <p>echo "# Anota-es_e_Testes" >> README.md
+        git init <br>
+        git add README.md <br>
+        git commit -m "first commit" <br>
+        git branch -M main <br>
+        git remote add origin https://github.com/Darth-Zamoth/Anota-es_e_Testes.git <br>
+        git push -u origin main <br>
+    </p>
+
+    <h2>Dicas & Truques</h2>
+
+    <h3>🧹 1️⃣ Remover usuário e email (configuração global)</h3>
+
+    <p>Se você quer “limpar” seu nome e email:</p>
+    <pre>
+        <code>
+            git config --global --unset user.name
+            git config --global --unset user.email
+        </code>
+    </pre>
+
+    <h3>🧹 2️⃣ Limpar todas configurações globais de uma vez</h3>
+
+    <p>Se quiser zerar tudo do Git no seu usuário:</p>
+
+    <pre>
+        <code>
+            rm -rf ~/.gitconfig
+        </code>
+    </pre>
+
+
+    <img src="../Anotações_e_Testes/imagens/KeyboardReferenceSheet.png" alt="atalhos vscode" width="1000">
+
+    <img src="../Anotações_e_Testes/imagens/git-comandos.png" width="800" alt="comandos git">
+
+    <img src="imagens/Darth-Zamoth_deployment_test_GitHub.png" width="800" alt="comandos git 01">
+
+    <img src="imagens/Darth-Zamoth_deployment_test_GitHub-02.png" width="800" alt="comandos git 02">
+
+</body>
+
+</html>
