@@ -126,8 +126,69 @@
     </p>
 
     <p>
-        Já o git pull é utilizado para quando nosso repositório esteja com alterações a frente da nossa máquina local. Quando rodamos o comando, é baixada todas as referências para nossa máquina. Mantendo o projeto na mesma versão. Para usar é simples: git pull estando na pasta onde o repositório foi inicializado
+        Já o git pull é utilizado para quando nosso repositório esteja com alterações a frente da nossa máquina local.
+        Quando rodamos o comando, é baixada todas as referências para nossa máquina. Mantendo o projeto na mesma versão.
+        Para usar é simples: git pull estando na pasta onde o repositório foi inicializado
     </p>
+
+    <h2>Git/Github - O que é SSH (Secure Shell) e como fazer uma conexão SSH</h2>
+
+
+    <p>
+        O SSH (Secure Shell), um aspecto crucial da segurança na rede. Aprenderemos como estabelecer uma conexão SSH
+        segura, habilidade essencial para aprimorar suas competências em administração de sistemas.
+    </p>
+
+
+    <h3>🔐 O que é SSH (Secure Shell)?</h3>
+
+    <p>
+        O SSH é um protocolo de rede que permite a comunicação segura entre computadores. Ele é amplamente utilizado
+        para
+        acessar servidores remotamente, transferir arquivos e executar comandos em sistemas remotos. O SSH utiliza
+        criptografia para garantir que os dados transmitidos sejam protegidos contra interceptação e acesso não
+        autorizado.
+    </p>
+
+    <ol>
+        <li>🔒 Criptografa a conexão (protege contra espionagem)</li>
+        <li>👤 Permite autenticação segura (senha ou chave criptográfica)</li>
+        <li>💻 Dá acesso ao terminal remoto</li>
+        <li>📁 Permite transferência segura de arquivos (SCP / SFTP)</li>
+        <li>⚙️ É muito usado com servidores Linux e com o GitHub</li>
+    </ol>
+
+    <p>Em resumo: <br>
+        SSH é como um “túnel seguro” entre seu computador e outro computador na internet. Ele é essencial para acessar
+        servidores, transferir arquivos e trabalhar com repositórios Git de forma segura. <br>
+        Aprender a usar SSH é fundamental para qualquer desenvolvedor ou administrador de sistemas que queira garantir a
+        segurança de suas conexões remotas.
+    </p>
+
+    <h3>🧠 Como funciona o SSH?</h3>
+
+    <p>Ele usa:
+    <ul>
+        <li>🔑 Chaves criptográficas (pública e privada)</li>
+        <li>🔒 Criptografia para proteger os dados</li>
+        <li>👤 Autenticação para verificar a identidade do usuário</li>
+    </ul>
+
+    O processo de conexão SSH geralmente envolve a troca de chaves criptográficas. O usuário gera um par de chaves (uma
+    pública e uma privada) e adiciona a chave pública ao servidor remoto. Quando o usuário tenta se conectar, o servidor
+    verifica a chave pública e, se for válida, permite o acesso.
+    </p>
+
+    <p>
+        Quando você conecta: <br>
+        1️⃣ O cliente SSH (seu computador) envia uma solicitação de conexão para o servidor SSH (o computador remoto). <br>
+        2️⃣ O servidor responde com sua chave pública. <br>
+        3️⃣ O cliente verifica a chave pública do servidor para garantir que está se conectando ao servidor correto. <br>
+        4️⃣ O cliente gera uma chave de sessão aleatória, criptografa-a com a chave pública do servidor e a envia de volta. <br>
+        5️⃣ O servidor usa sua chave privada para descriptografar a chave de sessão e estabelecer uma conexão segura. <br>
+    </p>
+
+
 
 
     <img src="../Anotações_e_Testes/imagens/KeyboardReferenceSheet.png" alt="atalhos vscode" width="1000">
