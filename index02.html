@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🛡️ Segurança do SSH</title>
 </head>
+
 <body>
-    
+    <h1>🛡️ Segurança do SSH</h1>
+
+    <p>
+        O SSH é considerado seguro porque utiliza criptografia para proteger os dados transmitidos entre o cliente e o
+        servidor. Ele usa um sistema de chaves públicas e privadas para autenticar os usuários. O cliente SSH possui uma
+        chave privada, enquanto o servidor SSH possui uma chave pública correspondente. Quando um usuário tenta se
+        conectar ao servidor, o servidor verifica a chave pública do cliente para garantir que ele é autorizado a
+        acessar o sistema. Além disso, o SSH suporta autenticação de dois fatores e pode ser configurado para usar
+        chaves de autenticação em vez de senhas, aumentando ainda mais a segurança. O uso de SSH é fundamental para
+        proteger conexões remotas e garantir a integridade dos dados transmitidos.
+
+    <ol>
+        Nunca:
+
+        <li>❌ Compartilhe sua chave privada </li>
+        <li>❌ Suba sua pasta .ssh no GitHub</li>
+        <li>❌ Envie chave por WhatsApp</li>
+    </ol>
+
+    <ol>
+        Sempre:
+
+        <li>✅ Proteja sua chave privada com uma senha forte</li>
+        <li>✅ Use chaves de autenticação em vez de senhas sempre que possível</li>
+        <li>✅ Mantenha seu software SSH atualizado para corrigir vulnerabilidades de segurança</li>
+    </ol>
+    </p>
+
+    <img class="exemplo01" src="imagens/chaves_de_seguranca_ssh.png" alt="chave_de_seguranca_ssh" width="800">
+
 </body>
+
 </html>
